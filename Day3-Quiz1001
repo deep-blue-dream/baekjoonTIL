@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+//1000번과 동일한 문제였다. 입력과 관련된 예약어 scanner에 대한 문법을 이번엔 안 보고 작성해보기.
+//조금 버벅였지만 (컨닝도 했지만) 완료. 
+//오늘은 조금 다른 유형의 문제도 풀어볼 예정
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a,b;
+        
+        a = sc.nextInt();
+        b = sc.nextInt();
+        System.out.println(a-b);
+        
+        sc.close();
+    }
+}
